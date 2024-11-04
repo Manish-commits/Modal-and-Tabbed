@@ -7,6 +7,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Hello </h2>
+    <header class="header-main">
+        <h1>
+            Modal and Tabbed Interface
+        </h1>
+    </header>
+    <div>
+        <button type="button" id="modal-btn" data-modal-target="#modal-container">Open modal</button>
+        <a href="./tabbed.html" class="anchor">Go to About Page</a>
+        <div class="modal-container active" id="modal-container">
+            <div class="modal-header">
+                <p class="modal-title">Modal Title</p>
+                <button type="button" id="close-button" class="close-btn">X</button>
+            </div>
+            <hr>
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veritatis doloremque culpa, doloribus laborum explicabo fuga hic magni aperiam modi incidunt suscipit nemo eveniet sequi facilis quas aliquid debitis, at placeat deserunt minus. Sapiente expedita ullam odit aspernatur ratione corporis aliquid quia consequatur laudantium, libero non tenetur earum eveniet perferendis quae? Facilis magni praesentium non quos voluptatem voluptatibus provident omnis aliquam in? Praesentium quos quae harum magni deleniti expedita, esse id officiis totam autem beatae sint delectus, repudiandae dolorem illum. Alias nulla reprehenderit quidem! Quidem animi distinctio enim id. Perferendis adipisci ipsam possimus maiores facilis porro earum expedita dolore, deserunt, saepe et consectetur illo praesentium repudiandae corporis perspiciatis neque architecto? Animi harum quia incidunt magnam, nostrum, rerum ipsum optio doloribus voluptatum omnis ad totam illo quod necessitatibus quae voluptatem odio ratione. Nemo adipisci minima placeat ipsa! Ullam blanditiis debitis porro, consectetur soluta aliquam nisi delectus rerum possimus! Libero optio neque eos deserunt delectus eaque blanditiis ad! Dolore repellat, praesentium incidunt quas facilis est odit iure consectetur, quasi blanditiis quo eum eveniet maiores placeat, hic explicabo fuga nostrum. Vel explicabo perferendis quibusdam dolor ipsam libero a quidem, iure id! Modi, sint quas culpa quaerat ab perferendis officiis temporibus harum consequatur ipsum cumque saepe vel magni, nesciunt deserunt quasi. Deserunt ullam modi debitis aperiam fugiat, provident perferendis incidunt delectus quis sunt. Officiis, rem quam ducimus odit facere eos porro! Impedit provident veritatis, cumque quidem asperiores, iste possimus recusandae hic quisquam eius sint tenetur facilis? Fugit illo modi placeat, iure doloribus qui, aperiam id alias, autem officiis expedita odit quidem tenetur omnis! Placeat voluptas repudiandae eveniet atque. Repudiandae repellendus, provident non distinctio id alias nostrum quaerat reiciendis culpa inventore nobis quod sit ut? Ipsum quod reiciendis ullam mollitia excepturi eveniet pariatur, officia voluptates iure facere ducimus. Modi culpa voluptatibus deleniti dicta, ipsa et!
+            </div>
+            <hr>
+            <div class="modal-footer">
+                <button class="footer-btn " >Cancel</button>
+                <button class="footer-btn ok-btn" id="ok-btn">Ok</button>
+            </div>
+        </div>
+    </div>
+    <div class="overlay-background active" id="overLay"></div>
+
+    <script src="./modal.js"></script>
 </body>
 </html>
